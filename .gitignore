@@ -1,0 +1,51 @@
+# Ignore virtual environment folders
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+
+# Ignore coverage/report/test artifacts
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+.junit.xml
+test-results/
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore requirements lock files (optional)
+poetry.lock
+Pipfile.lock
