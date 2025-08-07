@@ -15,28 +15,6 @@ Buy Car is a Django-based web application that allows users to **buy**, **update
 
 ---
 
-## 🗂️ Project Structure
-
-```
-buy_car/
-├── .env/                 # Virtual environment (ignored by Git)
-├── buy_car/              # Main Django project folder
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── app_name/             # Your Django app (replace with real name)
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   └── templates/
-├── requirements.txt      # Project dependencies
-├── .gitignore
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally:
