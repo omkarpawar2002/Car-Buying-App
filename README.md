@@ -53,13 +53,8 @@ cd buy-car
 ### 2️⃣ Create Virtual Environment (Optional but Recommended)
 
 ```bash
-# For Windows:
 python -m venv .env
 .env\Scripts\activate
-
-# For macOS/Linux:
-python3 -m venv .env
-source .env/bin/activate
 ```
 
 ---
@@ -115,9 +110,9 @@ This project uses **Django's built-in authentication system** for:
 
 - Python
 - Django
-- HTML/CSS (for templates)
-- SQLite (default Django database)
-- Bootstrap (optional, if used in templates)
+- HTML/CSS
+- MySQL
+- Bootstrap 
 
 ---
 
