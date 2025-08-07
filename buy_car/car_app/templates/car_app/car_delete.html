@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+<title>DELETE CAR DETAILS</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="background-color: #112e46; padding: 20px 20px 27px 20px; margin: 0px auto; color: white;">
+    <h1 style="text-align: center;">Delete Car Purchase Application Form</h1>
+    <form method="post">
+        {% csrf_token %}
+        <h1>Buyer --> {{obj.first_name}} {{obj.last_name}} {{obj.car_model}}</h1>
+        <button type="submit" class="btn btn-outline-light col-5">DELETE NOW</button>
+        <a href="{% url 'show_details' %}"><button type="button" class="btn btn-outline-light col-5 float-end">CANCEL
+                NOW</button></a>
+    </form>
+</div>
+{% endblock %}

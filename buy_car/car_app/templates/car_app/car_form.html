@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+<title>BUY CAR</title>
+{% endblock %}
+
+{% block content %}
+<div class="container" style="background-color: #112e46; padding: 2px 20px; margin: 0px auto; color: white;">
+    <h1 style="text-align: center;">Car Purchase Application Form</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form | crispy}}
+        <button type="submit" class="btn btn-outline-light col-5">Buy Now</button>
+        <button type="reset" class="btn btn-outline-light col-5 float-end">Cancel</button>
+    </form>
+</div>
+{% endblock %}
